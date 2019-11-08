@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(125, 255, 255);
   width: 1000px;
   margin: 10px auto;
   text-align: center;
@@ -9,40 +9,42 @@ body {
 
 h2 {
   font-size: 30px;
+  color: purple;
   text-align: center;
   height: 75px;
 }
+
 
 span{
   font-size: 75px;
   margin-top: 20px;
 }
 
-div[id^="row-"] div {
+div[id^="row"] div {
   width: 200px;
   height: 200px;
-  border: 1px solid red;
+  border: 1px solid orange;
   float: left;
 
 }
 
-div[id^="row-"] div:last-child {
+div[id^="row"] div:last-child {
   border-right: none;
 }
 
-div[id^="row-"] div:first-child {
+div[id^="row"] div:first-child {
   border-left: none;
 }
 
-div[id="row-1"] div{
+div[id="row1"] div{
   border-top: none;
 }
 
-div[id="row-3"] div{
+div[id="row3"] div{
     border-bottom: none;
 }
 
-div[id^="row-"] {
+div[id^="row"] {
   clear: float;
   width: 608px;
   box-sizing: border-box;
